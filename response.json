@@ -1,0 +1,111 @@
+{
+    "id": 2102,
+     "url": "https://api.sheep.srv.adnexo.ch/api/v1/trackers/2102/",
+     "identifier": "400D",
+    "active": "False",
+    "rfid": "400D",
+    "deveui": "70B3D577A000400D",
+    "model": "alptracker-alpscout-v011",
+    "search_mode": "False",
+    "asset": 4487,
+    "asset_details": {
+        "id": 4487,
+        "url": "https://api.sheep.srv.adnexo.ch/api/v1/assets/4487/",
+        "name": "SyrtoDemo VARTA Industrial Pro 2022-03-14  19. Mai 2020 18:14 - 28.Mai offline - viel feuchtigkeit",
+        "identification": "400D",
+        "asset_type": 8,
+        "asset_type_marker": "https://api.sheep.srv.adnexo.ch/media/animal_markers/1295308.svg",
+        "asset_type_identifier": "test",
+        "picture": "None",
+        "owner": 141,
+        "color": "#000000",
+        "sensor_data": {
+            "temperature": {
+                "last_update": "2022-05-28T15:43:02.997000+00:00",
+                "value": 27.0
+                },
+            "battery": {
+                "last_update": "2022-05-28T15:18:24.582000+00:00",
+                "value": 22.0
+                }
+            },
+        "lat": 46.3579287,
+        "lng": 7.9801945,
+        "position": {
+            "longitude": 7.9801945,
+            "latitude": 46.3579287
+            },
+        "static": "False",
+        "permissions": {
+            "access": "WRITE"
+            },
+        "asset_type_type": "fahrzeug",
+        "asset_documents_url": "https://api.sheep.srv.adnexo.ch/api/v1/assets/4487/documents/",
+        "device_documentation_url": "https://api.sheep.srv.adnexo.ch/api/v1/assets/4487/documentation",
+        "alert": "False"
+        },
+    "location": "None",
+    "location_details": "None",
+    "owner": 141,
+    "config": {
+        "last_update": "2022-05-28T17:44:37.964475+02:00",
+        "gps_fix_time": 90,
+        "gps_fix_interval": 1800,
+        "gps_accuracy_goal": 2500,
+        "rejoin_interval": 43200,
+        "firmware_version": "v1.0.0"
+        },
+    "network": "None",
+    "last_gps_measurement": {
+        "timestamp": "2022-05-21T17:08:40.077000+02:00",
+        "lat": 46.3579287,
+        "lng": 7.9801945,
+        "gps_accuracy": 24.77,
+        "is_position_accurate": "True",
+        "altitude": 1415,
+        "counter": 16,
+        "satellites": 7,
+        "is_outside": "False",
+        "temperature": "None",
+        "battery": "None",
+        "kind": "gps-fix",
+        "event": "periodic",
+        "sensor_data": {},
+        "network_data": {
+            "snr": -14.5,
+            "rssi": -118,
+            "sf": 12,
+            "network": "loriot"
+            }
+        },
+    "last_measurement": {
+        "timestamp": "2022-05-28T17:43:02.997000+02:00",
+         "lat": "None",
+         "lng": "None",
+         "gps_accuracy": "None",
+         "is_position_accurate": "True",
+         "altitude": "None",
+         "counter": 33,
+         "satellites": "None",
+         "is_outside": "None",
+         "temperature": 27,
+         "battery": "None",
+         "kind": "keep-alive",
+         "event": "periodic",
+         "sensor_data": {
+            "temperature": 27.0
+            },
+        "network_data": {
+            "snr": -4.5,
+            "rssi": -120,
+            "sf": 12,
+            "network": "loriot"
+            }
+        },
+    "last_message_timestamp": "2022-05-28T15:43:02.997000Z",
+    "tracker_status": {
+        "last_update": "2022-05-28T17:18:24.582000+02:00",
+        "battery": 22,
+        "battery_low": "False"
+        }
+    }
