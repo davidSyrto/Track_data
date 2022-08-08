@@ -26,7 +26,7 @@ def display_time_series(n_intervals):
     try :
         for element in animals.items() :
             element[1].exportAsCSV(str(element[0])+'_data.csv')            
-        a = animals[2102]
+        a = animals[2103]
         a = pandas.DataFrame({'time' : a.getTime(),'Latitude' : a.getLatitude()})
         fig = px.line(a, x='time', y='Latitude')
 
